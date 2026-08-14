@@ -39,5 +39,4 @@ processing.
 
 If you use these scripts, please cite:
 
-> [Author list]. *Inferred functional potential predicts medium-chain 
-> carboxylic acid production in mixed microbial communities.* [Journal, year, DOI]
+> Hernández-González, H. A., Villegas-Rodríguez, S., and Buitrón, G.. *Inferred functional potential predicts medium-chain carboxylic acid production of mixed microbial communities in chain-elongation batch reactors.* [under review in Bioresources and Bioprocessing]
