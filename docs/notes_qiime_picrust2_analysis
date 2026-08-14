@@ -1,0 +1,23 @@
+Notes 
+
+Preprocess raw sequences in QIIME2 (manifest.tsv .qzv, .qza) 
+
+Truncation. Demultiplexed sequence counts summaries were interpreted. Trimmed at Quality score of 20-35 
+
+Denoising with DADA2 in QIIMME2 using denoise-paired retireved low percentages of input non-chimeric. Method for removing chimeras (consensus). Then denoise-single was used with better results.  
+
+Different truncation lengths were tested (220, 210, 200, 190, 180, 170). For experiment 1 data 190 was chosen for its performance with the bad samples. For experiment 2 data 170 was chosen for its performance with the bad samples. For experiment 3 data 180 was chosen for its performance with the bad samples. 
+
+Observations from summary file: 
+
+Exp 1. Clean dataset. Sample filtering not necessary. Conservative: --p-min-frequency 10  Moderate (better): --p-min-frequency 10 
+
+Exp 2. Min frequency = 62 (very low). One sample is catastrophically under-sequenced. Filtering-sample required. p-min-frequency 2000. --p-min-frequency 25 
+
+Exp 3. Filtering-sample recommended --p-min-frequency 2000. --p-min-frequency 25 
+
+ 
+
+Low-abundance features were filtered (<10) to reduce noise and improve predictions 
+
+Taxonomic data was infereded using the feature-classifier from silva-138-99-nb-classifier.qza 

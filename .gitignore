@@ -1,16 +1,19 @@
 # Ignore data, results, environments
 data/
 results/
-environment/
+.Rhistory
+workflow/classifier/
 
 # Ignore everything in python/
 python/*
+
+# R
+.Rhistory
 
 # ...except these notebooks
 !python/plotting_functional_inference_publication_inocula_and_proportions_v7.ipynb
 !python/plotting_functional_inference_publication_SBR_v7.ipynb
 !python/fig1_combining_script.ipynb
-!python/requirements.txt
 
 # Python cache
 __pycache__/
