@@ -1,4 +1,4 @@
-# Inferred functional potential predicts medium-chain carboxylic acid production in mixed microbial communities
+# Inferred functional potential predicts medium-chain carboxylic acid production of mixed microbial communities in chain-elongation batch reactors
 
 Scripts supporting the analysis in this publication: 16S amplicon processing 
 (QIIME2 + PICRUSt2) and downstream functional inference plotting. Processing 
